@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 // import dynamic from "next/dynamic";
 
@@ -11,5 +11,9 @@ import MapPlayground from "@/components/MapPlayground";
 // });
 
 export default function Maps() {
-  return <MapPlayground />;
+  return (
+    <div className="text-center flex items-center justify-center">
+      <MapPlayground />
+    </div>
+  );
 }
