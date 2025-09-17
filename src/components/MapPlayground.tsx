@@ -1,5 +1,6 @@
 "use client";
 
+// import mapMarkers from "@/app/mock/MapMarkers";
 import {
   GoogleMap,
   useLoadScript,
@@ -69,6 +70,7 @@ export default function MapPlayground() {
       type: "shopping",
     },
   ]);
+  // const [markers, setMarkers] = useState<any[]>(mapMarkers);
 
   const [selectedMarker, setSelectedMarker] = useState<MarkerData | null>(null);
   const [addingPosition, setAddingPosition] = useState<{

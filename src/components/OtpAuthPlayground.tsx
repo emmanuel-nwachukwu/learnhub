@@ -53,7 +53,7 @@ const OtpAuthPlayground = () => {
           />
           <button
             onClick={sendOtp}
-            className="bg-blue-600 text-white px-4 py-2 rounded">
+            className="bg-blue-600 text-white px-4 py-2 rounded cursor-pointer">
             Send OTP
           </button>
         </>
@@ -69,7 +69,7 @@ const OtpAuthPlayground = () => {
           />
           <button
             onClick={verifyOtp}
-            className="bg-green-600 text-white px-4 py-2 rounded">
+            className="bg-green-600 text-white px-4 py-2 rounded cursor-pointer">
             Verify OTP
           </button>
         </>

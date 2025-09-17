@@ -24,3 +24,39 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.clip-s-curve-left {
+  clip-path: path("M0,0 C60,25 60,75 0,100 L100,100 L100,0 Z");
+}
+
+/* .clip-left-shape {
+  clip-path: path('M0,0 H100% V100% H0 C0% 80%, 60% 60%, 0% 0% Z');
+}
+
+.clip-right-shape {
+  clip-path: path('M100%,0 H0 V100% H100% C100% 80%, 40% 60%, 100% 0% Z');
+} */
+
+/* Put in global.css or <style> block if using plain CSS */
+
+/* .mask-left {
+  mask-image: url('/masks/left-split.svg');
+  -webkit-mask-image: url('/masks/left-split.svg');
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+} */
+
+.mask-right {
+  mask-image: url("/masks/right-split.svg");
+  -webkit-mask-image: url("/masks/right-split.svg");
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+}

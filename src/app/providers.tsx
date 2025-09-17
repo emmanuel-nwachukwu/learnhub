@@ -1,8 +1,13 @@
 // app/providers.tsx
 "use client";
 
+import { NotifyProvider } from "@/components/notify/NotifyProvider";
 import { SessionProvider } from "next-auth/react";
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  return <SessionProvider>{children}</SessionProvider>;
+  return (
+    // <SessionProvider>
+    <NotifyProvider>{children}</NotifyProvider>
+    // </SessionProvider>
+  );
 }
